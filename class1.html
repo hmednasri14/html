@@ -282,8 +282,7 @@
             <li>Values must be contained inside quotation marks.</li>
             <li>
 <pre><code class ="html">&lt;div id="copyright"&gt;&copy;CSI DEV TEAM logo 2016&lt;/div&gt;
-&lt;img src="my_picture.jpg" /&gt;
-&lt;a href="http://girldevelopit.com"&gt;CSI DEV TEAM&lt;/a&gt;
+&lt;img src="my_picture.jpg" /&gt;&gt;CSI DEV TEAM&lt;/a&gt;
 </code></pre>
             </li>
           </ul>
@@ -473,12 +472,11 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
       <p>Links have three components</p>
       <ul>
         <li>Tag: &lt;a>&lt;/a></li>
-        <li>Href attribute: "http://www.girldevelopit.com"</li>
         <li>Title attribute: "CSI DEV TEAM"</li>
       </ul>
-<pre><code class="html">&lt;a href="http://www.girldevelopit.com" title="CSI DEV TEAM"&gt;CSI DEV TEAM&lt;/a&gt;<
+<pre><code class="html">&lt; title="CSI DEV TEAM"&gt;CSI DEV TEAM&lt;/a&gt;<
 </code></pre>
-      <p><a href ="http://www.girldevelopit.com" title="CSI DEV TEAM">CSI DEV TEAM</a></p>
+      <p title="CSI DEV TEAM">CSI DEV TEAM</p>
       <p>The &lt;a&gt; tag surrounds text or images to turn them into links</p>
     </section>
 
@@ -490,7 +488,7 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
 </code></pre>
       <p><small>Link opens in a new window/tab with <strong>target="_blank"</strong></small></p>
       <!-- Change email to fit your chapter's needs-->
-<pre><code class="html">&lt;a href="mailto:sponsorships@girldevelopit.com"&gt;E-mail us!&lt;/a&gt;
+<pre><code class="html">&gt;E-mail us!&lt;/a&gt;
 </code></pre>
       <p><small>Adding <strong>mailto:</strong> directly before the email address means the link will open in the default email program.</small></p>
     </section>
@@ -508,7 +506,7 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
         </li>
         <li><strong>Absolute</strong><br />
         <ul>
-          <li>Absolute paths refer to a specific location of a file, including the domain. <small><code>"http://www.girldevelopit.com/chapters/detroit"</code></small></li>
+          <li>Absolute paths refer to a specific location of a file, including the domain.</li>
           <li>Typically used when pointing to a link that is not within your own domain.</li>
         </ul>
         </li>
